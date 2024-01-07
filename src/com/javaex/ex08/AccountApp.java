@@ -10,10 +10,13 @@ public class AccountApp {
         boolean run = true;
         int money;
         
+        
         Account account = new Account("312-89562-123456");
+        System.out.println( account.getAccountNo() + " 계좌가 개설되었습니다.");
+        
         
         while(run){
-            System.out.println("");
+            
             System.out.println("----------------------------------");
             System.out.println("1.예금 | 2.출금 | 3.잔고 |4.종료");
             System.out.println("----------------------------------");
