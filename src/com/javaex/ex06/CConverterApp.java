@@ -16,7 +16,6 @@ public class CConverterApp {
         //100달려를 원으로 출력하기
         System.out.println(("백달러는 "+ CConverter.toKWR(100))+"입니다.");
         
-        
     }
 
 }
