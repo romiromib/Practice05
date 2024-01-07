@@ -5,6 +5,17 @@ public class Base {
     public void service(String state) {
         
         //코드작성할것
+    	if(state=="낮") {
+    		day();
+    	}
+    	else if (state=="밤") {
+    		night();
+    	}
+    	else {
+    		afternoon();
+    	}
+    	
+  	
     	
     }
 
