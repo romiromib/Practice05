@@ -32,12 +32,12 @@ public class Account {
     //-일반
 	
 	
-	public int deposit(int money){
-		return this.balance = balance + money;
+	public void deposit(int money){
+		balance = balance + money;
 		 
 	}
-	public int withdraw(int money) {
-		return this.balance = balance - money;
+	public void withdraw(int money) {
+		balance = balance - money;
 		
 	}
 	public void showBalance() {
